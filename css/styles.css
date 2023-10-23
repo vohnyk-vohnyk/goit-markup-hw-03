@@ -60,6 +60,7 @@ body {
     color: #4d5ae5;
 }
 .logo-dark {
+    margin-right: 76px;
     color: #2E2F42;
 }
 .logo-light {
@@ -77,6 +78,13 @@ body {
 }
 .main:focus {
     color: #404bbf
+}
+
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    display: flex;
+    padding: 0 15px;
 }
 
 .contacts {
@@ -109,12 +117,20 @@ body {
 .btn_buy_service:hover {
     background-color: #404BBF;
 }
+
 .btn_buy_service:focus {
     background-color: #404BBF;
 }
+
 .promo {
     background-color: #2e2f42;
 }
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
 .promo-text {
     color: #FFF;
     text-align: center;
@@ -206,4 +222,3 @@ body {
     font-weight: 700;
     line-height: 116.667%;
     text-transform: uppercase;
-}

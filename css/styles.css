@@ -91,7 +91,7 @@ body {
     display: flex;
     align-items: center;
     height: 72px;
-    border-bottom: 1px solid #e7e9fc;
+
 
 
 }
@@ -143,6 +143,9 @@ body {
 .main:focus {
     color: #404bbf
 }
+
+.main_section {
+    border-bottom: 1px solid #e7e9fc;]}
 
 .contacts {
     font-style: normal;

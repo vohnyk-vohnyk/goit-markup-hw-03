@@ -100,7 +100,9 @@ body {
 
 }
 
-
+.main_section {
+    display: flex;
+}
 .main a:hover {
     color: #404BBF;
 }

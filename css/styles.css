@@ -329,6 +329,8 @@ body {
 .portfolio_articles {
     text-align: center;
     padding-bottom: 32px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .aside {
@@ -337,10 +339,12 @@ body {
     font-weight: 400;
     line-height: 150%;
 
-
 }
 
-
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .aside_article {
     line-height: 1.5;

@@ -323,6 +323,10 @@ body {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
+.logo {
+    display: inline-block;
+}
 .dark-logo {
     color: #4D5AE5;
     font-size: 18px;

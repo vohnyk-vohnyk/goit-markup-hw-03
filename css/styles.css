@@ -44,11 +44,13 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 156px;
     padding-right: 156px;
+
+
 
 }
 
@@ -125,6 +127,7 @@ body {
     color: #2e2f42;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .main:hover {
@@ -181,31 +184,30 @@ body {
     background-color: #2e2f42;
     height: 600px;
     text-align: center;
+    padding-left: 472px;
+
 }
 
 .promo-text {
     color: #FFF;
-    /*text-align: center;*/
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 0.02em;
     padding-top: 188px;
-    padding-bottom: 48px;
+    width: 496px;
 
-    /*width: 496px;
-    height: 120px;*/
-    /*padding-top: 188px;
-    padding-right: 472px;*/
+
 
 }
 
 .btn_buy_service {
-    display: inline-flex;
+
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+
+
+
 }
 
 .about {
@@ -363,8 +365,8 @@ body {
 }
 
 .aside {
-    padding-bottom: 101px;
-    padding-left: 156px;
-    padding-top: 100px;
+    padding: 100px 0 100px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 

@@ -32,11 +32,9 @@ img {
 ul {
     list-style: none;
 }
-
 a {
     text-decoration: none;
 }
-
 body {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
@@ -44,11 +42,11 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    padding: 0 15px
+    padding-left: 156px;
+    padding-right: 156px;
 
 }
 
@@ -75,35 +73,25 @@ body {
     align-items: center;
     justify-content: space-between;
 
-}
-
-.menu {
-    gap: 40px;
 
 }
 
-.last_li {
-    margin-right: 0;
-}
-
-.main_navig {
+.main {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
     height: 72px;
 
 
-
 }
+
 
 .main a:hover {
     color: #404BBF;
 }
-
 .main a:focus {
     text-decoration: underline;
 }
-
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -118,13 +106,10 @@ body {
 
 .logo-dark {
     color: #2E2F42;
-
 }
-
 .logo-light {
     color: #F4F4FD;
 }
-
 .main {
     font-weight: 500;
     font-size: 16px;
@@ -133,40 +118,30 @@ body {
     color: #2e2f42;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc
 }
 
 .main:hover {
     color: #404bbf
 }
-
 .main:focus {
     color: #404bbf
 }
-
-.main_section {
-    border-bottom: 1px solid #e7e9fc;]}
-
 .contacts {
     font-style: normal;
     font-weight: 400;
 }
-
 .communication {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .communication:hover {
     color: #404bbf;
 }
-
 .communication:focus {
     color: #404bbf;
 }
-
 .btn_buy_service {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -184,7 +159,6 @@ body {
 .btn_buy_service:hover {
     background-color: #404BBF;
 }
-
 .btn_buy_service:focus {
     background-color: #404BBF;
 }
@@ -193,28 +167,32 @@ body {
     background-color: #2e2f42;
     height: 600px;
     text-align: center;
-    padding-left: 472px;
-
 }
 
 .promo-text {
     color: #FFF;
+    text-align: center;
+    /*text-align: center;*/
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 0.02em;
     padding-top: 188px;
-    width: 496px;
+    padding-bottom: 48px;
 
+    /*width: 496px;
+    height: 120px;*/
+    /*padding-top: 188px;
+    padding-right: 472px;*/
 
 }
 
 .btn_buy_service {
-
+    display: inline-flex;
     padding: 16px 32px;
-
-
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .about {
@@ -231,8 +209,6 @@ body {
 .team {
     background-color: #F4F4FD;
 }
-
-
 .team_title {
     font-size: 36px;
     line-height: 1.11;
@@ -251,13 +227,11 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
 .team_articles {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .team_li {
     background-color: #FFFFFF;
 }
@@ -277,18 +251,15 @@ body {
     text-align: center;
     padding-bottom: 32px;
 }
-
 .list_articles_about {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .portfolio {
     background-color: #FFF;
 }
-
 .portfolio_titles {
     font-weight: 500;
     font-size: 20px;
@@ -296,15 +267,12 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
 .portfolio_articles {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
-
 .about_titles_list {
     font-weight: 500;
     font-size: 20px;
@@ -318,7 +286,6 @@ body {
     padding-top: 120px;
     padding-bottom: 72px;
     text-align: center;
-    margin-bottom: 72px;
 }
 
 .list_portfolio {
@@ -327,7 +294,6 @@ body {
     gap: 24px;
     flex-wrap: wrap;
     padding-bottom: 120px;
-    row-gap: 48px;
 }
 
 .portfolio_titles {
@@ -339,15 +305,6 @@ body {
 .portfolio_articles {
     text-align: center;
     padding-bottom: 32px;
-    padding-top: 120px;
-
-
-}
-
-.portfolio {
-    padding-bottom: 120px;
-    padding-top: 120px;
-
 }
 
 .aside {
@@ -356,19 +313,16 @@ body {
     font-weight: 400;
     line-height: 150%;
 
+
 }
 
-.logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 
 .aside_article {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-
 .dark-logo {
     color: #4D5AE5;
     font-size: 18px;
@@ -376,7 +330,6 @@ body {
     line-height: 116.667%;
     text-transform: uppercase;
 }
-
 .light-logo {
     color: #F4F4FD;
     font-size: 18px;
@@ -386,8 +339,7 @@ body {
 }
 
 .aside {
-    padding: 100px 0 100px;
-    margin-bottom: 16px;
-    display: inline-block;
+    padding-bottom: 101px;
+    padding-left: 156px;
+    padding-top: 100px;
 }
-

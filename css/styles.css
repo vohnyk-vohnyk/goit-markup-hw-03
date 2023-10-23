@@ -50,10 +50,6 @@ body {
     display: flex;
     padding: 0 15px
 
-
-
-
-
 }
 
 .section {
@@ -79,14 +75,13 @@ body {
     align-items: center;
     justify-content: space-between;
 
-
-
 }
 
 .menu {
     gap: 40px;
 
 }
+
 .last_li {
     margin-right: 0;
 }
@@ -99,6 +94,7 @@ body {
 
 
 }
+
 .main a:hover {
     color: #404BBF;
 }
@@ -208,13 +204,11 @@ body {
     width: 496px;
 
 
-
 }
 
 .btn_buy_service {
 
     padding: 16px 32px;
-
 
 
 }
@@ -279,6 +273,7 @@ body {
     text-align: center;
     padding-bottom: 32px;
 }
+
 .list_articles_about {
     font-size: 16px;
     line-height: 1.5;
@@ -350,6 +345,7 @@ body {
     padding-top: 120px;
 
 }
+
 .aside {
     background-color: #2E2F42;
     font-size: 16px;
@@ -387,7 +383,7 @@ body {
 
 .aside {
     padding: 100px 0 100px;
-    display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 

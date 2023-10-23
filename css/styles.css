@@ -47,8 +47,10 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 156px;
-    padding-right: 156px;
+    display: flex;
+    padding: 0 15px
+
+
 
 
 
@@ -78,6 +80,15 @@ body {
     justify-content: space-between;
 
 
+
+}
+
+.menu {
+    gap: 40px;
+
+}
+.last_li {
+    margin-right: 0;
 }
 
 .main {
@@ -310,6 +321,7 @@ body {
     padding-top: 120px;
     padding-bottom: 72px;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .list_portfolio {
@@ -318,6 +330,7 @@ body {
     gap: 24px;
     flex-wrap: wrap;
     padding-bottom: 120px;
+    row-gap: 48px;
 }
 
 .portfolio_titles {
@@ -330,9 +343,15 @@ body {
     text-align: center;
     padding-bottom: 32px;
     padding-top: 120px;
-    padding-bottom: 120px;
+
+
 }
 
+.portfolio {
+    padding-bottom: 120px;
+    padding-top: 120px;
+
+}
 .aside {
     background-color: #2E2F42;
     font-size: 16px;

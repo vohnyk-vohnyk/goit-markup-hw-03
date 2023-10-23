@@ -97,11 +97,7 @@ body {
     align-items: center;
     height: 72px;
 
-
-}
-
-.main_section {
-    display: flex;
+    
 }
 .main a:hover {
     color: #404BBF;

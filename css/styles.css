@@ -326,7 +326,7 @@ body {
     max-width: 264px;
 }
 
-.logo {
+.container .logo {
     margin-bottom: 16px;
     display: inline-block;
 

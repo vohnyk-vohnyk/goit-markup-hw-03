@@ -326,29 +326,30 @@ body {
     max-width: 264px;
 }
 
-.logo-web {
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
+
 
 }
 .dark-logo {
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 116.667%;
-    text-transform: uppercase;
+
+
 }
 .light-logo {
     color: #F4F4FD;
     font-size: 18px;
     font-weight: 700;
-    line-height: 116.667%;
-    text-transform: uppercase;
+
+
 }
+
+.logo-web {
+
+    font-family: Raleway, sans-serif;
+
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;

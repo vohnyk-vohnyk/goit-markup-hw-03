@@ -169,6 +169,31 @@ body {
 }
 .about {
     background-color: #FFF;
+
+    padding: 120px 0;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.about_info {
+    display: flex;
+    gap: 24px;
+
+}
+
+.about_us_list {
+    width: calc((100% - 72px) / 4);
+
 }
 .team {
     background-color: #F4F4FD;
@@ -224,6 +249,9 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 8px;
+
 }
 .aside {
     background-color: #2E2F42;

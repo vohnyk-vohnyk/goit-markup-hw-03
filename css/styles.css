@@ -50,6 +50,7 @@ body {
 .main a:focus {
     text-decoration: underline;
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -59,6 +60,12 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+.menue {
+    display: flex;
+    gap: 40px;
+}
+
 .logo-dark {
     margin-right: 76px;
     color: #2E2F42;
@@ -222,3 +229,4 @@ body {
     font-weight: 700;
     line-height: 116.667%;
     text-transform: uppercase;
+}

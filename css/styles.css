@@ -44,10 +44,10 @@ body {
     background-color: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
 }
-.main a:hover {
+.menu-item a:hover {
     color: #404BBF;
 }
-.main a:focus {
+.menu-item a:focus {
     text-decoration: underline;
 }
 
@@ -64,6 +64,7 @@ body {
 .menue {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logo-dark {
@@ -73,18 +74,26 @@ body {
 .logo-light {
     color: #F4F4FD;
 }
-.main {
+.menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    padding: 24px 0;
 }
-.main:hover {
+.menu-item:hover {
     color: #404bbf
 }
-.main:focus {
+.menu-item:focus {
     color: #404bbf
+}
+
+.contact_list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .container {
@@ -99,16 +108,16 @@ body {
     font-weight: 400;
 }
 
-.communication {
+.contact-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.communication:hover {
+.contact-item:hover {
     color: #404bbf;
 }
-.communication:focus {
+.contact-item:focus {
     color: #404bbf;
 }
 .btn_buy_service {
@@ -136,6 +145,7 @@ body {
 .page-navigation {
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
 
 .promo-text {

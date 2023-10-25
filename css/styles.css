@@ -101,10 +101,13 @@ body {
 .container {
     margin: 0 auto;
     width: 1158px;
-    display: flex;
+
     padding: 0 15px;
 }
 
+.header_container {
+    display: flex;
+}
 .contacts {
     font-style: normal;
     font-weight: 400;
@@ -131,6 +134,9 @@ body {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
+
+    margin: auto;
+    display: block;
 
     min-width: 169px;
     height: 56px;
@@ -162,7 +168,7 @@ body {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 107.143%;
+    margin-bottom: 48px;
     letter-spacing: 0.02em;
 
     max-width: 496px;
